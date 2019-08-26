@@ -1,0 +1,1 @@
+Burada potansiyometre kullanarak Brushless DC motor kontrol ediyoruz.
