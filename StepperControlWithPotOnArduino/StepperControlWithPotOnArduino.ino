@@ -11,19 +11,13 @@
 int ileri=200;
 int potValue=0;
 
-
 Stepper stepMotor(motorAdimi, motorPin1,motorPin2,motorPin3,motorPin4); 
 
 void setup() {
   
-  
   stepMotor.setSpeed(60);
   pinMode(potPin,INPUT);
-  
-  
   Serial.begin(9600);
-
-  
 }
 
 void loop() {
