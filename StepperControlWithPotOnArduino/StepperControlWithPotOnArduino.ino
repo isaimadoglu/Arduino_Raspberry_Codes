@@ -1,4 +1,3 @@
-
 #include <Stepper.h>
 
 #define motorAdimi 200     
@@ -37,5 +36,4 @@ void loop() {
   Serial.println(potValue);
   stepMotor.step(ileri);
   
-
 }
