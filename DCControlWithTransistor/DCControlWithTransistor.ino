@@ -15,7 +15,7 @@ pinMode(transistorPin, OUTPUT);
 void loop()
 {
 
-potValue = analogRead(potPin)/4;
+potValue = analogRead(potPin);
 
 potMap = map(potValue, 0, 1023, 0, 255);
 
