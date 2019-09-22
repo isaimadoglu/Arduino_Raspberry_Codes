@@ -35,7 +35,6 @@ void loop() {
     potValue=50;
   }
   Serial.println(potValue);
-  // Step forward 100 steps:
   stepMotor.step(ileri);
   
 
